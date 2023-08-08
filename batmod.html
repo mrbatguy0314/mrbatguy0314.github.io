@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="Scratch%20-%20Imagine,%20Program,%20Share_files/ga.js"></script><script src="Scratch%20-%20Imagine,%20Program,%20Share_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app219.us.archive.org';v.server_ms=465;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="Scratch%20-%20Imagine,%20Program,%20Share_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="Scratch%20-%20Imagine,%20Program,%20Share_files/wombat.js" charset="utf-8"></script>
+<script type="text/javascript" src="Scratch%20-%20Imagine,%20Program,%20Share_files/ruffle.js"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://scratch.mit.edu","20130510001246","https://web.archive.org/","web","/_static/",
+	      "1368144766");
+</script>
+<link rel="stylesheet" type="text/css" href="Scratch%20-%20Imagine,%20Program,%20Share_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="Scratch%20-%20Imagine,%20Program,%20Share_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>batmod - Imagine, Program, Share</title>
+    
+    
+        <link href="Scratch%20-%20Imagine,%20Program,%20Share_files/main.css" rel="stylesheet" type="text/css">
+    
+    
+<!-- templates/homepage/index.html block css -->
+<link href="Scratch%20-%20Imagine,%20Program,%20Share_files/homepage.css" rel="stylesheet">
+<!-- end block css -->
+
+    <script type="text/javascript" src="Scratch%20-%20Imagine,%20Program,%20Share_files/jquery.js"></script> 
+    <script type="text/javascript" src="Scratch%20-%20Imagine,%20Program,%20Share_files/raven-0.js"></script> <!-- depends on jquery -->
+    <script>
+      window.console||(window.console={log:$.noop,error:$.noop,debug:$.noop}); // ensure console fails gracefully when missing
+      // define _gaq here to log errors with GA. ga.js script gets loaded furthe down
+      var _gaq = window._gaq || [];
+      _gaq.push(['_setAccount', 'UA-30688952-1']);
+      _gaq.push(['_trackPageview']);
+      
+      if(!location.port){ // if not on a developer port
+        (function(){
+          Raven.config('https://web.archive.org/web/20130510001246/https://e359fd9a45c94dc39a46744c1a76ec2b@app.getsentry.com/3893'); // configure GetSentry
+          var oldWindowOnError = window.onerror; // need this for window.onerror to work correctly in IE8.
+          window.onerror = function(msg,file,lineNum){// catch & report any errors in window.onerror supporting browsers.
+            _gaq.push(['_trackEvent', 'Error_JavaScript', msg + '  file:' + file + '  line:' + lineNum ]); // track errors with GA since
+      
+            //if we're on jiggler throw the error to the user
+            if(location.host.indexOf('jiggler') > -1) {
+              if(oldWindowOnError) oldWindowOnError(msg,file,lineNum);
+              return false;
+            }
+            console.log('WINDOW.ONERROR ','msg: ',msg,'file: ',file,'lineNum: ',lineNum); // otherwise log it
+            return true; // and capture it so code continues
+          };
+        })();
+        }
+    </script>
+  </head>
+  
+  <body class=""><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" style="display: block; direction: ltr; height: 1px;" lang="en">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20130510001246/http://scratch.mit.edu/</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(700,27,25,2,"web","http://scratch.mit.edu/","20130510001246",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+    <!--[if lt IE 8]>
+      <p class="upgrade-browser">Scratch 2.0 only supports IE8 and above. To use the site, <a href="http://browsehappy.com/">upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a>.</p>
+    <![endif]-->
+    <div id="pagewrapper">
+       
+      
+      <div id="topnav">
+        <div class="container">
+          <a href="https://web.archive.org/web/20130510001246/http://scratch.mit.edu/" class="logo"><span class="scratch"></span></a>
+          <ul class="site-nav">
+            <li><a href="https://web.archive.org/web/20130510001246/http://scratch.mit.edu/projects/editor/?tip_bar=getStarted">Create</a></li><li><a href="https://web.archive.org/web/20130510001246/http://scratch.mit.edu/explore/?date=this_month">Explore</a></li><li><a href="https://web.archive.org/web/20130510001246/http://scratch.mit.edu/discuss/">Discuss</a></li><li class="last"><a href="https://web.archive.org/web/20130510001246/http://scratch.mit.edu/help/">Help</a></li>
+          </ul>
+            <form class="search" action="/web/20130510001246/http://scratch.mit.edu/search/projects/" method="get">
+            <span class="glass"></span>
+	    
+	    <input placeholder="Search" name="q" type="text">
+               
+              <input name="date" value="anytime" type="hidden">
+          <input name="sort_by" value="datetime_shared" type="hidden">
+          </form>
+            
+     <ul class="account-nav logged-in"><li class="messages"><a title="messages - updates and notices" href="https://scratch.mit.edu/messages" class="messages-icon"><span class="notificationsCount none" style="top: -30px;">0</span></a></li><li class="my-stuff"><a title="my stuff - manage projects and studios" href="https://scratch.mit.edu/mystuff/" class="mystuff-icon"></a></li><li class="logged-in-user dropdown"><span class="user-name dropdown-toggle" data-toggle="dropdown"><img class="user-icon" src="catguy0314%20mystuff_files/default_32x32.png" width="24" height="24">batmod<span class="caret"></span></span><div class="dropdown-menu blue"><ul class="user-nav"><li><a href="https://scratch.mit.edu/users/catguy0314/">Profile</a></li><li><a href="https://scratch.mit.edu/mystuff/">My Stuff</a></li><li><a href="https://scratch.mit.edu/accounts/settings/">Account settings</a></li><li id="logout" class="logout divider"><form method="post" action="/accounts/logout/"><input name="csrfmiddlewaretoken" value="1pp6n71PuLXW5rpW373NLYUqpNcDwWyN" type="hidden"><input value="Sign out" type="submit"></form></li></ul></div></li></ul>
+
+ 
+       
+<!-- templates/mystuff/base.html block main-content -->
+
+
+
+
+<div class="cols">
+  <div class="col-4 left">
+    <div class="box v-tabs">
+      <div id="sidebar" class="tabs-index">
+        <ul data-control="tabs" id="tabs">
+          
+<!-- templates/mystuff/studio.html block studio-tabs -->
+<li class="first active" data-tab="projects"><a href="#projects">All Projects (<span data-content="project-count">
+0
+</span>)</a></li>
+<li class="sub-list" data-tab="shared"><a href="#shared">Shared Projects (<span data-content="shared-count">
+0
+</span>)</a></li>
+<li class="sub-list" data-tab="unshared"><a href="#unshared">Unshared Projects (<span data-content="unshared-count">
+0
+</span>)</a></li>
+<li data-tab="galleries"><a href="#galleries">My Studios (<span data-content="gallery-count">0</span>)</a></li>
+<li data-tab="trash"><a href="#trash">Trash</a></li>
+<!-- end block studio-tabs -->
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="box">
+      <div class="box-head">
+        
+<h2>My Stuff</h2>
+<div class="buttons">
+  <a href="https://mrbatguy0314.github.io/batmod%200_1_2.swf" class="button small grey">
+    <span id="new_project" class="text">+ New Project</span>
+  </a>
+ 
+</div>
+
+      </div>
+      <div class="box-content v-tabs-content" id="main-content"><div>
+<div class="tab-content" id="main-content">
+  <div class="action-bar scroll">
+    <div class="inner">
+      
+<div class="dropdown radio-style button grey small">
+  <span class="dropdown-toggle black" data-toggle="dropdown">
+	  <span class="selected">Sort by</span> 
+    <span class="caret"></span>
+  </span>
+  <div class="dropdown-menu radio-style">
+    <ul data-control="sort">
+	    <li class="selected" data-decsort="datetime_modified">Last modified</li>
+	    <li data-descsort="view_count">Views</li>
+	    <li data-descsort="love_count">Loves</li>
+	    <li data-descsort="remixers_count">Remixes</li>
+      <li data-ascsort="title">A-Z</li>
+      <li data-descsort="title">Z-A</li>
+    </ul>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+  <div id="alert-view"></div>
+    <div data-content="list" class="media-list">
+    <ul class="media-list"><li style="display: none;">
+    <div class="media-item-content trashed">
+      <div class="media-thumb">
+        <a href="https://scratch.mit.edu/projects/642116343/">
+          <img src="catguy0314%20mystuff_files/642116343_100x80.png">
+        </a>
+      </div>
+      <div class="media-info">
+        <span class="media-info-item title"><a href="https://scratch.mit.edu/projects/642116343/">Untitled-3</a></span>
+      	<span class="media-info-item date shortDateFormat">
+          Last modified: 
+          
+            10 Feb 2022
+          
+        </span>
+        <a href="https://scratch.mit.edu/projects/642116343/#editor" data-control="edit" class="media-control button grey small">
+		<span>See inside</span>
+        </a>
+      </div>
+      <div data-control="restore" class="media-untrash small grey button">
+        <span class="text">Put back</span>
+      </div>
+    </div>
+</li><li style="display: none;">
+    <div class="media-item-content trashed">
+      <div class="media-thumb">
+        <a href="https://scratch.mit.edu/projects/641759499/">
+          <img src="catguy0314%20mystuff_files/641759499_100x80.png">
+        </a>
+      </div>
+      <div class="media-info">
+        <span class="media-info-item title"><a href="https://scratch.mit.edu/projects/641759499/">Untitled-2</a></span>
+      	<span class="media-info-item date shortDateFormat">
+          Last modified: 
+          
+            9 Feb 2022
+          
+        </span>
+        <a href="https://scratch.mit.edu/projects/641759499/#editor" data-control="edit" class="media-control button grey small">
+		<span>See inside</span>
+        </a>
+      </div>
+      <div data-control="restore" class="media-untrash small grey button">
+        <span class="text">Put back</span>
+      </div>
+    </div>
+</li><li style="display: none;">
+    <div class="media-item-content trashed">
+      <div class="media-thumb">
+        <a href="https://scratch.mit.edu/projects/641728917/">
+          <img src="catguy0314%20mystuff_files/641728917_100x80.png">
+        </a>
+      </div>
+      <div class="media-info">
+        <span class="media-info-item title"><a href="https://scratch.mit.edu/projects/641728917/">Untitled</a></span>
+      	<span class="media-info-item date shortDateFormat">
+          Last modified: 
+          
+            9 Feb 2022
+          
+        </span>
+        <a href="https://scratch.mit.edu/projects/641728917/#editor" data-control="edit" class="media-control button grey small">
+		<span>See inside</span>
+        </a>
+      </div>
+      <div data-control="restore" class="media-untrash small grey button">
+        <span class="text">Put back</span>
+      </div>
+    </div>
+</li><li style="display: none;">
+    <div class="media-item-content trashed">
+      <div class="media-thumb">
+        <a href="https://scratch.mit.edu/projects/641620888/">
+          <img src="catguy0314%20mystuff_files/641620888_100x80.png">
+        </a>
+      </div>
+      <div class="media-info">
+        <span class="media-info-item title"><a href="https://scratch.mit.edu/projects/641620888/">My first Project</a></span>
+      	<span class="media-info-item date shortDateFormat">
+          Last modified: 
+          
+            9 Feb 2022
+          
+        </span>
+        <a href="https://scratch.mit.edu/projects/641620888/#editor" data-control="edit" class="media-control button grey small">
+		<span>See inside</span>
+        </a>
+      </div>
+      <div data-control="restore" class="media-untrash small grey button">
+        <span class="text">Put back</span>
+      </div>
+    </div>
+</li></ul></div>
+    <div style="position:relative; left: 45%" data-control="load-more" class="grey button"><span class="text">Load More</span></div>
+</div>
+</div></div>
+    </div>
+  </div>
+</div>
+<!-- end block main-content -->
+
+        </div>
+
+
+        
+        
+   
+
+    
+<!-- templates/modal-login.html block -->
+	    <div class="modal hide fade in" id="login-dialog" style="width: 450px">
+        <form method="post" action="/login/">
+          <fieldset>
+            <div class="modal-header">
+              <a href="#" data-dismiss="modal" class="close">x
+              </a>
+	      <h3>Sign in</h3>
+            </div>
+            <div class="modal-body">
+            
+              <div class="control-group">
+		      <label class="control-label" for="username">Username
+                </label>
+                <div class="controls">
+                  <input class="username" name="username" maxlength="30" type="text">
+                </div>
+              </div>
+              <div class="control-group">
+		            <label class="control-label" for="password">Password
+                </label>
+                <div class="controls">
+                  <input name="password" class="password" type="password">
+                </div>
+              </div>
+              
+            </div>
+            <div class="modal-footer">
+              <span class="error">
+              </span>
+              <div class="buttons-right">
+                <button class="button primary" type="submit">Sign in</button> 
+                
+		<a data-control="registration">Or Join Scratch</a>
+                
+              </div>
+            </div>
+           
+          </fieldset>
+        </form>
+        <iframe class="iframeshim" scrolling="no" frameborder="0">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</iframe>
+      </div>
+<!-- end templates/modal-login.html -->
+
+    
+        <div id="registration" class="registration modal hide fade" data-backdrop="static">
+          <iframe class="iframeshim" scrolling="no" frameborder="0">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</iframe>
+        </div>
+    
+
+    
+    
+
+    
+    
+
+    <script type="text/javascript" src="catguy0314%20mystuff_files/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="catguy0314%20mystuff_files/main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="catguy0314%20mystuff_files/base.js" charset="utf-8"></script>
+    <script type="text/javascript" src="catguy0314%20mystuff_files/lazyload.js" charset="utf-8"></script>
+    
+<!-- templates/mystuff/base.html block js -->
+
+
+<!-- end block js -->
+
+    
+
+    
+
+    
+
+
+<script type="text/template" id="template-collection-count">
+  <%- count %>
+</script>
+
+<script type="text/template" id="template-comment-actions">
+<% if (can_delete) { %>
+  <% if (is_staff && comment_user == current_user) { %>
+    <span data-control="delete" class="actions report">Delete</span>
+  <% } else if (type != "gallery" || comment_user == current_user) { %>
+    <span data-control="delete" class="actions report">Delete</span>
+  <% } %>
+<% } %>
+<% if (current_user != comment_user) { %>
+  <span data-control="report" class="actions report">
+  <% if (student_of_educator) { %>
+    Delete
+  <% } else { %>
+    Report
+  <% } %></span>
+<% } %>
+</script>
+
+<script type="text/template" id="template-modal-login">
+<div class="modal hide fade in" id="login-dialog" style="width: 450px">
+  <form method="post" action="/login/">
+    <fieldset>
+      <div class="modal-header">
+        <a href="#" data-dismiss="modal" class="close">x
+        </a>
+        <h3>Login</h3>
+      </div>
+      <div class="modal-body">
+        <div class="control-group">
+        <label class="control-label" for="username">Username
+          </label>
+          <div class="controls">
+            <input id="username" type="text" name="username" maxlength="30" />
+          </div>
+        </div>
+        <div class="control-group">
+        <label class="control-label" for="password">Password
+          </label>
+          <div class="controls">
+            <input type="password" name="password" id="password" />
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <span class="error">
+        </span>
+        <span class="button primary" id="sign-in" data-control="site-login">
+        <span>{% trans "Sign in" $}
+          </span>
+        </span>
+      </div>
+    </fieldset>
+  </form>
+</div>
+</script>
+
+<script type="text/template" id="template-comment-reply">
+  <form>
+    <div class="control-group tooltip right">
+      <textarea name="content"></textarea>
+       
+            
+            
+      <span class="hovertext error" data-control="error" 
+data-content="comment-error"><span class="arrow"></span><span 
+class="text"></span></span>
+      <span class="small-text">You have <span id="chars-left-<%- 
+comment_id %>">500</span> characters left.</span>
+    </div>
+    <div class="control-group">
+        <div class="button small" data-parent-thread="<%- thread_id %>" 
+data-commentee-id="<%- commentee_id %>" data-control="post"><a 
+href="#null">Post</a></div>
+        <div class="button small grey" data-control="cancel"><a 
+href="#null">Cancel</a></div>
+      <span class="notification"></span>
+    </div>
+  </form>
+</script>
+
+<script type="text/template" id="template-deletion-canceled">
+<div class="deletion-canceled">
+  <div class="form">
+    <p>
+    Your account was scheduled for deletion but you logged in. Your 
+account has been reactivated. If you didn’t request for your account to 
+be deleted, you should <a href="/accounts/password_change/">change your 
+password</a> to make sure your account is secure. 
+    </p>
+  </div>
+</div>
+</script>
+
+<script type="text/template" id="template-unsupported-browser">
+  <div class="unsupported-browser banner" 
+data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch works best on newer browsers. We suggest you upgrade
+ to <a href="/info/faq/#requirements">a supported browser</a>, <a 
+href="/scratch2download/">download the offline editor</a>, <a 
+href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">or read
+ about common workarounds</a>.</span>
+      <div class="close">x</div>
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="template-unsupported-msie">
+  <div class="unsupported-browser banner" 
+data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch will stop supporting Internet Explorer 8 on April 
+30, 2015. We suggest you upgrade to <a href="/info/faq/#requirements">a 
+supported browser</a>, <a href="/scratch2download/">download the offline
+ editor</a>, or <a 
+href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">read 
+about common workarounds</a>.</span>
+      <div class="close">x</div>
+    </div>
+  </div>
+</script>
+
+
+
+
+    
+
+<script type="text/template" id="template-counter">
+<%- count %>
+</script>
+
+<script type="text/template" id="template-project-content">
+<div class="tab-content" id="main-content">
+  <div class="action-bar scroll">
+    <div class="inner">
+      
+<div class="dropdown radio-style button grey small">
+  <span class="dropdown-toggle black" data-toggle="dropdown">
+	  <span class="selected">Sort by</span> 
+    <span class="caret"></span>
+  </span>
+  <div class="dropdown-menu radio-style">
+    <ul data-control="sort">
+	    <li class="selected" data-decsort="datetime_modified">Last 
+modified</li>
+	    <li data-descsort="view_count">Views</li>
+	    <li data-descsort="love_count">Loves</li>
+	    <li data-descsort="remixers_count">Remixes</li>
+      <li data-ascsort="title">A-Z</li>
+      <li data-descsort="title">Z-A</li>
+    </ul>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+  <div id="alert-view"></div>
+    <div data-content="list" class="media-list">
+    </div>
+    <div style="position:relative; left: 45%" data-control="load-more" 
+class="grey button"><span class="text">Load More</span></div>
+</div>
+</script>
+
+<script type="text/template" id="template-trashed-content">
+<div class="tab-content" id="main-content">
+  <div class="action-bar scroll">
+    <div class="inner">
+      
+<div class="dropdown radio-style button grey small">
+  <span class="dropdown-toggle black" data-toggle="dropdown">
+	  <span class="selected">Sort by</span> 
+    <span class="caret"></span>
+  </span>
+  <div class="dropdown-menu radio-style">
+    <ul data-control="sort">
+	    <li class="selected" data-decsort="datetime_modified">Last 
+modified</li>
+	    <li data-descsort="view_count">Views</li>
+	    <li data-descsort="love_count">Loves</li>
+	    <li data-descsort="remixers_count">Remixes</li>
+      <li data-ascsort="title">A-Z</li>
+      <li data-descsort="title">Z-A</li>
+    </ul>
+  </div>
+</div>
+
+
+      <div class="right">
+        <div data-control="empty-trash" class="button small grey">
+          <span class="text">Empty Trash</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="alert-view" class="alert-message hide">
+    <div data-control="message"></div>
+    <div data-control="close" class="close">x</div>
+  </div>
+  <div data-content="list" class="media-list">
+  </div>
+  <div style="position:relative; left: 45%" data-control="load-more" 
+class="grey button"><span class="text">Load More</span></div>
+</div>
+</script>
+
+<script type="text/template" id="template-gallery-content">
+<div class="tab-content" id="main-content">
+  
+<div class="action-bar">
+    <div class="inner">
+      <div data-control="ordering" class="dropdown select button grey 
+small">
+        <span class="dropdown-toggle black" data-toggle="dropdown">
+		<span class="selected">All</span>
+          <span class="caret"></span>
+        </span>
+        <div class="dropdown-menu">
+          <ul data-control="filter">
+            <li data-filter="all" class="hide">All</li>
+	    <li data-filter="owned">Hosted by me</li>
+	    <li data-filter="curated">Curated by me</li>
+          </ul>
+        </div>
+      </div>
+      <div data-control="ordering" class="dropdown radio-style button 
+grey small">
+        <span class="dropdown-toggle black" data-toggle="dropdown">
+		<span class="selected">Sort by</span>
+          <span class="caret"></span>
+        </span>
+        <div class="dropdown-menu radio-style">
+          <ul data-control="sort">
+		  <li data-decsort="newest" class="selected">Last modified</li>
+		  <li data-descsort="projecters_count">Projects</li>
+            <li data-ascsort="title">A-Z</li>
+            <li data-descsort="title">Z-A</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <div id="alert-view" class="alert-message hide">
+    <div data-control="message"></div>
+    <div data-control="close" class="close">x</div>
+  </div>
+  <div data-content="list" class="media-list">
+  </div>
+  <div style="position:relative; left: 45%" data-control="load-more" 
+class="grey button"><span class="text">Load More</span></div>
+</div>
+</script>
+
+<script type="text/template" id="template-project-shared-list-item">
+    <div class="media-item-content <%= isPublished? '' : 'not-shared' 
+%>">
+      <div class="media-thumb">
+        <a href="/projects/<%- id %>/">
+            <img src="<%- uncached_thumbnail_url %>">
+        </a>
+      </div>
+      <div class="media-info">
+        <span class="media-info-item title"><a href="/projects/<%- id 
+%>/"><%- title %></a></span>
+      	<span class="media-info-item date shortDateFormat">
+          Last modified: 
+          <% if (prettyDate(datetime_modified)) { %>
+            <%- $.timeago(datetime_modified + 'Z') %>
+          <% } else { %>
+            <%- $.format.date(datetime_created, "d MMM yyyy") %>
+          <% } %>
+        </span>
+        <a href="/projects/<%- id %>/#editor" data-control="edit" 
+class="media-control-edit small button grey">
+		<span>See inside</span>
+        </a>
+      </div>
+      
+      <div data-control="add-to" class="media-control dropdown button 
+grey small <%= isPublished? 'enabled' : 'disabled' %>">
+	      <span <%= isPublished? 'data-toggle="dropdown"' : '' %>  
+class="dropdown-toggle black">Add to <span class="caret"></span></span>
+        <div data-content="addto-gallery-list" data-project-id="<%- id 
+%>" class="dropdown-menu"></div>
+      </div>
+      <div class="media-stats">
+        <span class="stat"><span class="icon-xs view black"></span><%- 
+view_count %></span>
+        <span class="stat"><span class="icon-xs remix black"></span><%- 
+remixers_count %></span>
+        <span class="stat"><span class="icon-xs love black"></span><%- 
+love_count %></span>
+        <span class="stat"><span class="icon-xs favorite 
+black"></span><%- favorite_count %></span>
+        <span class="stat"><span class="icon-xs comment black"></span><%
+ if (commenters_count > 100) { %>100+<% } else { %><%- commenters_count 
+%><% } %></span>
+        <span class="stat"><span class="icon-xs project  
+black"></span>0</span>
+	<a href="#" class="unshare" data-control="unshare">Unshare</a>
+      </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-project-list-item">
+    <div class="media-item-content <%= isPublished? '' : 'not-shared' %>">
+      <div class="media-thumb">
+        <a href="/projects/<%- id %>/">
+          <img src="<%- uncached_thumbnail_url %>">
+        </a>
+      </div>
+      <div class="media-info">
+        <span class="media-info-item title"><a href="/projects/<%- id %>/"><%- title %></a></span>
+      	<span class="media-info-item date shortDateFormat">
+          Last modified: 
+          <% if (prettyDate(datetime_modified)) { %>
+            <%- $.timeago(datetime_modified + 'Z') %>
+          <% } else { %>
+            <%- $.format.date(datetime_created, "d MMM yyyy") %>
+          <% } %>
+        </span>
+      <a href="/projects/<%- id %>/#editor" data-control="edit" class="media-control-edit small button grey">
+	      <span>See inside</span>
+      </a>
+      </div>
+      <div class="media-action">
+	      <div><a href="#" class="media-trash" data-control="trash">Delete</a></div>
+      </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-project-trashed-list-item">
+    <div class="media-item-content trashed">
+      <div class="media-thumb">
+        <a href="/projects/<%- id %>/">
+          <img src="<%- uncached_thumbnail_url %>">
+        </a>
+      </div>
+      <div class="media-info">
+        <span class="media-info-item title"><a href="/projects/<%- id %>/"><%- title %></a></span>
+      	<span class="media-info-item date shortDateFormat">
+          Last modified: 
+          <% if (prettyDate(datetime_modified)) { %>
+            <%- $.timeago(datetime_modified + 'Z') %>
+          <% } else { %>
+            <%- $.format.date(datetime_created, "d MMM yyyy") %>
+          <% } %>
+        </span>
+        <a href="/projects/<%- id %>/#editor" data-control="edit" class="media-control button grey small">
+		<span>See inside</span>
+        </a>
+      </div>
+      <div data-control="restore" class="media-untrash small grey button">
+        <span class="text">Put back</span>
+      </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-gallery-list-item">
+    <div class="media-item-content">
+      <div class="media-thumb">
+        <a href="/studios/<%- id %>">
+          <img src="<%- thumbnail_url %>" />
+        </a>
+      </div>
+      <div class="media-info">
+        <span class="media-info-item title">
+          <a href="/studios/<%- id %>"><%- title %></a>
+        </span>
+        <span class="media-info-item date shortDateFormat">Created: <%- $.format.date(datetime_created, "dd/MM/yyyy") %></span>
+        <% if (owner.username == Scratch.INIT_DATA.LOGGED_IN_USER.model.username) { %>
+          <span class="media-info-item rank">Host</span>
+          <% } else { %>
+          <span class="media-info-item rank">Curator</span>
+          <% } %>
+      </div>
+      <div class="media-stats">
+        <span class="stat">
+          <span class="icon-xs project black"></span>
+           <% if (projecters_count > 100) { %>100+<% } else { %><%- projecters_count %><% } %>
+        </span>
+        <span class="stat">
+          <span class="icon-xs comment black"></span>
+           <% if (commenters_count > 100) { %>100+<% } else { %><%- commenters_count %><% } %>
+          </span>
+          <% if (owner.username == Scratch.INIT_DATA.LOGGED_IN_USER.model.username) { %>
+            <a href="#" class="unshare" data-control="trash">Delete</a>
+          <% } %>
+      </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-addto-gallery-item">
+  <span data-control="<%- id %>"><%- title %></span>
+</script>
+
+
+
+<div class="modal hide fade in" id="password-form-box">
+    <form method="post" action="/accounts/check_password/">
+        <fieldset>
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="close">x</a>
+                <h3>Please verify your account</h3>
+            </div>
+            <div class="modal-body">
+                <h4 id="password-form-sub-header">To delete these projects for good, please type your password below.</h4>
+                <input name="csrfmiddlewaretoken" value="1pp6n71PuLXW5rpW373NLYUqpNcDwWyN" type="hidden">
+                <div class="control-group">
+                    <input name="password" class="password" type="password">
+                </div>
+                <script src="catguy0314%20mystuff_files/api.js" async="" defer="defer"></script>
+                <div class="g-recaptcha" id="recaptcha-container" data-sitekey="6LeRbUwUAAAAAFYhKgk3G9OKWqE_OJ7Z-7VTUCbl"></div>
+
+                </div>
+                <ul class="errors"></ul>
+                <div class="modal-footer">
+                    <div class="buttons-right">
+                        <button type="submit" class="button primary" value="Submit Password">Submit Password</button>
+                    </div>
+                </div>
+            </fieldset></form></div>
+        
+    
+    <iframe class="iframeshim" scrolling="no" frameborder="0">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</iframe>
+
+
+
+<div id="new-scratcher-gallery-modal" class="modal hide fade in">
+    <div class="modal-header">
+        <a href="#" data-dismiss="modal" class="close">x</a>
+        <h3>Want to create a studio on Scratch?</h3>
+    </div>
+    <div class="modal-body">
+        <p class="look-for-invitation">
+            Look for the link at the top of your profile page to become a Scratcher.
+        </p>
+        <p class="no-invitation-yet">
+            If you don't see it yet, keep making and sharing projects, 
+commenting helpfully on other Scratcher's projects, and be patient! 
+After a few weeks, you’ll see the link on your profile page.
+        </p>
+        <p class="learn-more">
+            <a href="https://scratch.mit.edu/discuss/topic/515548">
+                Learn more about becoming a Scratcher.
+            </a>
+        </p>
+    </div>
+    <div class="modal-footer">
+        <div class="buttons-right">
+          <input id="close-new-scratcher-gallery-modal" class="button" value="OK, back to Scratch" data-dismiss="modal" type="button">
+        </div>
+    </div>
+</div>
+
+
+
+
+    
+
+    <!-- load javascript translation catalog, and javascript fuzzy date library -->
+    <script type="text/javascript" src="catguy0314%20mystuff_files/a"></script>
+    <script type="text/javascript" src="catguy0314%20mystuff_files/jquery_002.js"></script>
+
+    
+    <script type="text/javascript" src="catguy0314%20mystuff_files/main_002.js"></script>
+    
+
+    <script type="text/javascript" src="catguy0314%20mystuff_files/global.js"></script>
+    <script>
+      Scratch.NotificationPollTime = 300000;
+    </script>
+
+    
+<script src="catguy0314%20mystuff_files/router.js"></script>
+
+<script src="catguy0314%20mystuff_files/tabs.js"></script>
+<script src="catguy0314%20mystuff_files/counter.js"></script>
+<script src="catguy0314%20mystuff_files/mixins.js"></script>
+<script src="catguy0314%20mystuff_files/page.js"></script>
+<script src="catguy0314%20mystuff_files/project-thumbnail_002.js"></script>
+<script src="catguy0314%20mystuff_files/project-thumbnail.js"></script>
+<script src="catguy0314%20mystuff_files/gallery-thumbnail_002.js"></script>
+<script src="catguy0314%20mystuff_files/gallery-thumbnail.js"></script>
+<script src="catguy0314%20mystuff_files/addto-gallery.js"></script>
+<script type="text/javascript">
+  $(function() {
+    app = new Scratch.MyStuff.Router();
+    Backbone.history.start();
+  });
+</script>
+
+
+    
+    <script>
+    $(document).on("accountnavready", function(e){
+        $('#topnav .messages').notificationsAlert();
+    });
+    </script>
+    
+    <script type="text/javascript">
+      var today = new Date();
+      if (today.getDate() === 1 && today.getMonth() === 3) {
+        document.write(';');
+      }
+    </script>
+  
+  
+
+</body><!-- Site Version: 3.2023.07.19.1_2023_07_26_10_36 --></html>
+        
+        
+    
