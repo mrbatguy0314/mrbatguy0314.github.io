@@ -1,0 +1,47 @@
+#topnav {
+  position: relative;
+}
+
+#topnav .search input {
+  width: 100px;
+}
+
+#topnav .site-nav li a {
+  padding: 0 8px;
+}
+
+#topnav .sign-in.dropdown {
+  display: none;
+}
+
+#topnav .sign-in.mobile {
+  display: inline-block;
+}
+
+.modal {
+  position: absolute;
+}
+
+
+
+
+/*
+     FILE ARCHIVED ON 10:49:34 Mar 30, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:24:42 Aug 27, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 111.679
+  exclusion.robots: 0.079
+  exclusion.robots.policy: 0.072
+  cdx.remote: 0.051
+  esindex: 0.008
+  LoadShardBlock: 78.316 (3)
+  PetaboxLoader3.datanode: 80.182 (5)
+  load_resource: 151.936 (2)
+  PetaboxLoader3.resolve: 89.904 (2)
+*/
